@@ -5,11 +5,11 @@ def calc ():
     percentage = int(input("what percentage tip would like to give ? 10 , 12 or 15 ? "))
     if percentage == 10 : 
         pay = (percentage*(total_bill/100) + total_bill ) / num_people 
-        print("Each person should pay :" + str(float(pay)))
+        print("Each person should pay :" + str(round(float(pay),2)))
     elif percentage == 12 : 
         pay = (percentage*(total_bill/100) + total_bill ) / num_people 
-        print("Each person should pay :" + str(float(pay)))
+        print("Each person should pay :" + str(round(float(pay),2)))
     elif percentage == 15 : 
         pay = (percentage*(total_bill/100) + total_bill ) / num_people 
-        print("Each person should pay :" + str(float(pay)))    
+        print("Each person should pay :" + str(round(float(pay),2)))    
 calc()
