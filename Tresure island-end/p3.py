@@ -31,10 +31,10 @@ if l_or_r == "left" :
        if colr == "yellow" : 
            print("You found the treasure! You Win!")
        elif colr == "red" : 
-           print("Game over")
+           print("Game overright")
        elif colr == "bleu" : 
            print("Game over")
-    elif colr == "swim" : 
+    elif swim_or_wait == "swim" : 
            print("Game over")
-elif colr == "right" : 
-           print("Game over")
+elif l_or_r == "right" : 
+           print("You fell into a hole. Game Over.")
