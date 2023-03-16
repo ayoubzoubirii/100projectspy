@@ -33,8 +33,8 @@ if l_or_r == "left" :
        elif colr == "red" : 
            print("It's a room full of fire. Game Over.")
        elif colr == "bleu" : 
-           print("Game over")
+           print("You chose a door that doesn't exist. Game Over.")
     elif swim_or_wait == "swim" : 
            print("You get attacked by an angry trout. Game Over.")
-elif l_or_r == "right" : 
+else : 
            print("You fell into a hole. Game Over.")
