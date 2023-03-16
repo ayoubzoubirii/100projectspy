@@ -31,7 +31,7 @@ if l_or_r == "left" :
        if colr == "yellow" : 
            print("You found the treasure! You Win!")
        elif colr == "red" : 
-           print("Game overright")
+           print("It's a room full of fire. Game Over.")
        elif colr == "bleu" : 
            print("Game over")
     elif swim_or_wait == "swim" : 
