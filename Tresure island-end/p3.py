@@ -35,6 +35,6 @@ if l_or_r == "left" :
        elif colr == "bleu" : 
            print("Game over")
     elif swim_or_wait == "swim" : 
-           print("Game over")
+           print("You get attacked by an angry trout. Game Over.")
 elif l_or_r == "right" : 
            print("You fell into a hole. Game Over.")
